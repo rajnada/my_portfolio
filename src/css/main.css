@@ -263,6 +263,7 @@
   .main_container .introduction {
     margin-top: 100px;
     margin-bottom: 20px;
+    padding-bottom: 5rem;
   }
   
   .main_container .introduction h1 {
@@ -293,7 +294,8 @@
   
   /* about page styling */
   .main_container .about_me {
-    padding-top: 10rem;
+    /* padding-top: 10rem; */
+    padding-bottom: 7rem;
   }
   
   .main_container .about_me h1 {
@@ -404,7 +406,8 @@
   }
 
   .main_container #experience {
-    padding-top: 10rem;
+    /* padding-top: 10rem; */
+    padding-bottom: 7rem;
   }
   
   #experience {
@@ -679,6 +682,45 @@
   }
 
 
+  .text-animate-hover {
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+
+  .text-animate, .text-animate-hover {
+    display: inline-block;
+    min-width: 10px;
+}
+
+.text-animate-hover:hover {
+  -webkit-animation: rubberBand 1s;
+  animation: rubberBand 1s;
+  color: #303030;
+}
+
+@keyframes rubberBand {
+  0%{
+      transform: scaleX(1);
+  }
+  40%{
+      transform: scaleX(1.12) scaleY(0.75);
+  }
+  55%{
+      transform: scaleX(0.85) scaleY(1);
+  }
+  65%{
+    transform: scaleX(1.09) scaleY(0.85);
+}
+75%{
+    transform: scaleX(0.9)  scaleY(1);
+}
+90%{
+    transform: scaleX(1.05) scaleY(0.95);
+}
+100%{
+    transform: scaleX(1) scaleY(1);
+}
+}
   /************Contact Form ***********************/
 
 

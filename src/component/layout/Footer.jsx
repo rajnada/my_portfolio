@@ -29,16 +29,16 @@ const Footer = () => {
       <div className="text-zone">
         <h1>
           <span>
-            <span className="text-animate-hover _15">C</span>
-            <span className="text-animate-hover _16">o</span>
-            <span className="text-animate-hover _17">n</span>
-            <span className="text-animate-hover _18">t</span>
-            <span className="text-animate-hover _19">a</span>
-            <span className="text-animate-hover _20">c</span>
-            <span className="text-animate-hover _21">t</span>
-            <span className="text-animate-hover _22"> </span>
-            <span className="text-animate-hover _23">m</span>
-            <span className="text-animate-hover _24">e</span>
+            <span className="text-animate-hover">C</span>
+            <span className="text-animate-hover">o</span>
+            <span className="text-animate-hover">n</span>
+            <span className="text-animate-hover">t</span>
+            <span className="text-animate-hover">a</span>
+            <span className="text-animate-hover">c</span>
+            <span className="text-animate-hover">t</span>
+            <span className="text-animate-hover"> </span>
+            <span className="text-animate-hover">m</span>
+            <span className="text-animate-hover">e</span>
           </span>
         </h1>
         <p>

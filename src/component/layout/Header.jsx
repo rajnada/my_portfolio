@@ -55,7 +55,17 @@ const Header = () => {
                 <div className="typist">
                   <div className="user-info">
                     <span id="user-name">
-                      Raj Nada <span className="cursor_with_delay"></span>
+                      <span className="text-animate-hover">R</span>
+                      <span className="text-animate-hover">a</span>
+                      <span className="text-animate-hover">j</span>
+                      <span className="text-animate-hover"> </span>
+                      <span className="text-animate-hover">N</span>
+                      <span className="text-animate-hover">a</span>
+                      <span className="text-animate-hover">d</span>
+                      <span className="text-animate-hover">a</span>
+                      <span className="cursor_with_delay text-animate-hover">
+                        {" "}
+                      </span>
                     </span>
                   </div>
                 </div>
