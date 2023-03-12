@@ -698,6 +698,10 @@
   color: #303030;
 }
 
+.text-zone{
+  margin-top: 5rem;
+}
+
 @keyframes rubberBand {
   0%{
       transform: scaleX(1);

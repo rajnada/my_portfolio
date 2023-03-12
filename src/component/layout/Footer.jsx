@@ -26,21 +26,21 @@ const Footer = () => {
   const form = useRef();
   return (
     <footer id="contact">
+      <h1>
+        <span>
+          <span className="text-animate-hover">C</span>
+          <span className="text-animate-hover">o</span>
+          <span className="text-animate-hover">n</span>
+          <span className="text-animate-hover">t</span>
+          <span className="text-animate-hover">a</span>
+          <span className="text-animate-hover">c</span>
+          <span className="text-animate-hover">t</span>
+          <span className="text-animate-hover"> </span>
+          <span className="text-animate-hover">M</span>
+          <span className="text-animate-hover">e</span>
+        </span>
+      </h1>
       <div className="text-zone">
-        <h1>
-          <span>
-            <span className="text-animate-hover">C</span>
-            <span className="text-animate-hover">o</span>
-            <span className="text-animate-hover">n</span>
-            <span className="text-animate-hover">t</span>
-            <span className="text-animate-hover">a</span>
-            <span className="text-animate-hover">c</span>
-            <span className="text-animate-hover">t</span>
-            <span className="text-animate-hover"> </span>
-            <span className="text-animate-hover">m</span>
-            <span className="text-animate-hover">e</span>
-          </span>
-        </h1>
         <p>
           I am interested in freelance opportunities - especially ambitious or
           large projects. However, if you have other request or question, don't
