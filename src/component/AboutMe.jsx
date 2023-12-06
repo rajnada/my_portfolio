@@ -1,4 +1,26 @@
+import { PriorityHighTwoTone } from "@material-ui/icons";
 import React from "react";
+import Corosle from "./layout/Corosle";
+import "react-multi-carousel/lib/styles.css";
+import JS from "../svg/JS.svg";
+import Angular from "../svg/Angular.svg";
+import Atlasian from "../svg/Atlasian.svg";
+import AWS from "../svg/AWS.svg";
+import BootStrap from "../svg/Bootstrap.svg";
+import CSS from "../svg/CSS.svg";
+import Docker from "../svg/Docker.svg";
+import Git from "../svg/Git.svg";
+import Github from "../svg/GitHub.svg";
+import GitLab from "../svg/GitLab.svg";
+import Python from "../svg/Python.svg";
+import Heroku from "../svg/Heroku.svg";
+import HTML5 from "../svg/HTML5.svg";
+import Jira from "../svg/Jira.svg";
+import JQuery from "../svg/JQuery.svg";
+import MaterialUI from "../svg/MaterialUI.svg";
+import MongoDB from "../svg/MongoDb.svg";
+import MySql from "../svg/MySql.svg";
+import ReactIcon from "../svg/React.svg";
 
 const AboutMe = () => {
   return (
@@ -6,7 +28,7 @@ const AboutMe = () => {
       <section id="hello" className="introduction">
         <h1>Hi_</h1>
         <p>
-          2 years of IT experience which includes 1.5+ years of Extensive
+          3 years of IT experience which includes 2.5+ years of Extensive
           experience as a React.js &amp; Node.js Developer. Experienced in
           working with Redux &amp; Redux Saga architecture using complex
           Object-Oriented concepts in improving the performance of the websites
@@ -34,11 +56,11 @@ const AboutMe = () => {
         <div className="education">
           <h3>Education</h3>
           <div className="timelineItem">
-            <span className="date">Mar 2013 - April 2015</span>
-            <h3>P. P. Savani School</h3>
-            <span>Gujarat Secondary and Higher Secondary Education Board</span>
+            <span className="date">January 2022 - Present</span>
+            <h3>Humber College, Etobicoke</h3>
+            <span>Information Technology Solutions </span>
             <p>
-              Top of the className with <strong>80.32% </strong>
+              GPA of <strong> 8.7 </strong>
             </p>
           </div>
           <div className="timelineItem">
@@ -48,264 +70,29 @@ const AboutMe = () => {
               Bachelor of Technology in Computer science and Engineering
             </span>
             <p>
-              CGPA of <strong>8.28 </strong>
+              CGPA of <strong> 8.28 </strong>
             </p>
           </div>
           <div className="timelineItem">
-            <span className="date">January 2022 - Present</span>
-            <h3>Humber College, Etobicoke</h3>
-            <span>Information Technology Solutions </span>
-          </div>
-        </div>
-
-        <div className="skills">
-          <h3>Skills</h3>
-          <div className="skillsContainer">
-            <div>
-              <div className="skill">
-                <span>html5 </span>
-                <div>
-                  <div>
-                    <div></div>
-                  </div>
-
-                  <div className="progress-container">
-                    <div className="progress">
-                      <div className="progress-line">
-                        <div
-                          className="progress-line-inner"
-                          style={{
-                            width: "90%",
-                            backgroundColor: "rgb(255, 119, 54)",
-                          }}
-                        ></div>
-                      </div>
-                      <div className="progress-symbol">🤗</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="skill">
-                <span>css3 (i also know sass and scss) </span>
-                <div>
-                  <div>
-                    <div></div>
-                  </div>
-                  <div className="progress-container">
-                    <div className="progress">
-                      <div className="progress-line">
-                        <div
-                          className="progress-line-inner"
-                          style={{
-                            width: "80%",
-                            backgroundColor: "rgb(255, 119, 54)",
-                          }}
-                        ></div>
-                      </div>
-                      <div className="progress-symbol">🤗</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="skill">
-                <span>javascript + es6 </span>
-                <div>
-                  <div>
-                    <div></div>
-                  </div>
-
-                  <div className="progress-container">
-                    <div className="progress">
-                      <div className="progress-line">
-                        <div
-                          className="progress-line-inner"
-                          style={{
-                            width: "75%",
-                            backgroundColor: "rgb(255, 119, 54)",
-                          }}
-                        ></div>
-                      </div>
-                      <div className="progress-symbol">🤗</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="skill">
-                <span>typescript </span>
-                <div>
-                  <div>
-                    <div></div>
-                  </div>
-
-                  <div className="progress-container">
-                    <div className="progress">
-                      <div className="progress-line">
-                        <div
-                          className="progress-line-inner"
-                          style={{
-                            width: "60%",
-                            backgroundColor: "rgb(255, 119, 54)",
-                          }}
-                        ></div>
-                      </div>
-                      <div className="progress-symbol">🤗</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="skill">
-                <span>git & git flow </span>
-                <div>
-                  <div>
-                    <div></div>
-                  </div>
-
-                  <div className="progress-container">
-                    <div className="progress">
-                      <div className="progress-line">
-                        <div
-                          className="progress-line-inner"
-                          style={{
-                            width: "80%",
-                            backgroundColor: "rgb(255, 119, 54)",
-                          }}
-                        ></div>
-                      </div>
-                      <div className="progress-symbol">🤗</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div>
-              <div className="skill">
-                <span>ReactJs with Redux </span>
-                <div>
-                  <div>
-                    <div></div>
-                  </div>
-
-                  <div className="progress-container">
-                    <div className="progress">
-                      <div className="progress-line">
-                        <div
-                          className="progress-line-inner"
-                          style={{
-                            width: "85%",
-                            backgroundColor: "rgb(0, 121, 145)",
-                          }}
-                        ></div>
-                      </div>
-                      <div className="progress-symbol">🏄</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="skill">
-                <span>Material ui</span>
-                <div>
-                  <div>
-                    <div></div>
-                  </div>
-
-                  <div className="progress-container">
-                    <div className="progress">
-                      <div className="progress-line">
-                        <div
-                          className="progress-line-inner"
-                          style={{
-                            width: "75%",
-                            backgroundColor: "rgb(0, 121, 145)",
-                          }}
-                        ></div>
-                      </div>
-                      <div className="progress-symbol">🏄</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="skill">
-                <span>Mongodb </span>
-                <div>
-                  <div>
-                    <div></div>
-                  </div>
-
-                  <div className="progress-container">
-                    <div className="progress">
-                      <div className="progress-line">
-                        <div
-                          className="progress-line-inner"
-                          style={{
-                            width: "70%",
-                            backgroundColor: "rgb(0, 121, 145)",
-                          }}
-                        ></div>
-                      </div>
-                      <div className="progress-symbol">🏄</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="skill">
-                <span>firebase</span>
-                <div>
-                  <div>
-                    <div></div>
-                  </div>
-
-                  <div className="progress-container">
-                    <div className="progress">
-                      <div className="progress-line">
-                        <div
-                          className="progress-line-inner"
-                          style={{
-                            width: "70%",
-                            backgroundColor: "rgb(0, 121, 145)",
-                          }}
-                        ></div>
-                      </div>
-                      <div className="progress-symbol">🏄</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="skill">
-                <span>Node + Express</span>
-                <div>
-                  <div>
-                    <div></div>
-                  </div>
-
-                  <div className="progress-container">
-                    <div className="progress">
-                      <div className="progress-line">
-                        <div
-                          className="progress-line-inner"
-                          style={{
-                            width: "75%",
-                            backgroundColor: "rgb(0, 121, 145)",
-                          }}
-                        ></div>
-                      </div>
-                      <div className="progress-symbol">🏄</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <span className="date">Mar 2013 - April 2015</span>
+            <h3>P. P. Savani School</h3>
+            <span>Gujarat Secondary and Higher Secondary Education Board</span>
+            <p>
+              Top of the className with <strong>80.32% </strong>
+            </p>
           </div>
         </div>
       </section>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="skill-bx">
+              <h2>Skills</h2>
+              <Corosle />
+            </div>
+          </div>
+        </div>
+      </div>
 
       <section id="experience">
         <h1>Experience_</h1>
@@ -358,25 +145,32 @@ const AboutMe = () => {
       <div className="project-container">
         <div className="slideshow-container">
           <div className="slides fade">
-            <img src={pro1} width={800} height={500} />
+            
+          <img src={pro1} width={800} height={500} />
           </div>
           <div className="slides fade">
-            <img src={pro2} width={800} height={500} />
+            
+          <img src={pro2} width={800} height={500} />
           </div>
           <div className="slides fade">
-            <img src={pro3} width={800} height={500} />
+            
+          <img src={pro3} width={800} height={500} />
           </div>
           <div className="slides fade">
-            <img src={pro4} width={800} height={500} />
+            
+          <img src={pro4} width={800} height={500} />
           </div>
           <div className="slides fade">
-            <img src={pro5} width={800} height={500} />
+            
+          <img src={pro5} width={800} height={500} />
           </div>
           <div className="slides fade">
-            <img src={pro6} width={800} height={500} />
+            
+          <img src={pro6} width={800} height={500} />
           </div>
           <div className="slides fade">
-            <img src={pro7} width={800} height={500} />
+            
+          <img src={pro7} width={800} height={500} />
           </div>
 
           <a href=" " className="prev" onClick={increaseSlides(-1)}>
