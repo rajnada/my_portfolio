@@ -258,7 +258,7 @@ header .topInfo .topRightInfo .social a i {
   margin: 0 auto;
   padding: 0 20px;
   width: calc(100% - 40px);
-  max-width: 960px;
+  max-width: 1160px;
 }
 
 .main_container .introduction {
@@ -11370,7 +11370,7 @@ section.resume-section .resume-section-content {
 .portfolio {
   position: relative;
   width: 100%;
-  background-color: #f9fafb;
+  /* background-color: #f9fafb; */
   min-height: 1200px;
 }
 
@@ -11384,6 +11384,13 @@ section.resume-section .resume-section-content {
 
 #portfolio .section-header {
   padding-top: 70px;
+}
+
+.portfolio-img {
+  /* background-image: url('../img/camera-app.png'); */
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
 }
 
 .portfolio .title::before {

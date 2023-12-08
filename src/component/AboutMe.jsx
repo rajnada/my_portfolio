@@ -27,6 +27,11 @@ import MongoDB from "../svg/MongoDb.svg";
 import MySql from "../svg/MySql.svg";
 import ReactIcon from "../svg/React.svg";
 import Carousel from 'react-multi-carousel';
+import CromeProject from '../img/camera-app.png'
+import PickyPigProject from '../img/Picky-pig.png'
+import FiatMatch from '../img/FiatMatch.png'
+import RoamingTrippers from '../img/RomingTrippers.jpeg'
+import EmployeeEngagement from '../img/Humber-Engagement.png'
 import 'react-multi-carousel/lib/styles.css';
 
 const AboutMe = () => {
@@ -39,19 +44,19 @@ const AboutMe = () => {
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
-      items: 5,
+      items: 8,
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 4,
+      items: 6,
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 2,
+      items: 3,
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
-      items: 1,
+      items: 2,
     },
   };
 
@@ -308,7 +313,7 @@ const AboutMe = () => {
 
             <div class="container">
                 <div class="section-header">
-                    <h3 class="title" data-title="My works">Portfolio</h3>
+                <h1>Portfolio_</h1>
                 </div>
 
                 <div class="section-body">
@@ -316,12 +321,12 @@ const AboutMe = () => {
 
                         <div class="grid-item">
                             <div class="gallery-image">
-                                <a href="http://todos-app-frontend.s3-website-us-east-1.amazonaws.com/" target="_blank">
-                                    <img src="./images/portfolio/todo.png" alt="" class="" />
+                                <a href="https://webapp.cromesecured.com/" target="_blank">
+                                    <img src={CromeProject} alt="Crome" height={375} width={300} class="portfolio-img" />
                                     <div class="img-overlay">
                                         <div class="img-description">
-                                            <h3 class="">Todos Management Application</h3>
-                                            <h5 class="">Technologies used: React, Spring Boot, MySQL</h5>
+                                            <h3 class="">House Security</h3>
+                                            <h5 class="">Technologies used: React, Node, Sercomm, MongoDB</h5>
                                         </div>
                                     </div>
                                 </a>
@@ -329,19 +334,19 @@ const AboutMe = () => {
                         </div>
                         <div class="grid-item">
                             <div class="gallery-image">
-                                <a href="https://github.com/kartik-nain/Sales-Management-Web-App.git" target="_blank">
-                                    <img src="./images/portfolio/sales.png" alt="" class="" />
+                                <a href="https://www.pickypigs.com/" target="_blank">
+                                    <img src={PickyPigProject} alt="picky-pig-project" class="portfolio-img" />
                                     <div class="img-overlay">
                                         <div class="img-description">
-                                            <h3 class="">Sales Management Web Application</h3>
-                                            <h5 class="">Technologies used: NodeJS, ExpressJS, MongoDB
+                                            <h3 class="">Picky Pig Restaurant</h3>
+                                            <h5 class="">Technologies used: ReactJS, NodeJS, ExpressJS, MongoDB
                                             </h5>
                                         </div>
                                     </div>
                                 </a>
                             </div>
                         </div>
-                        <div class="grid-item">
+                        {/* <div class="grid-item">
                             <div class="gallery-image">
                                 <a href="https://github.com/kartik-nain/Reddit-Search.git" target="_blank">
                                     <img src="./images/portfolio/reddit.png" alt="" class="" />
@@ -354,65 +359,25 @@ const AboutMe = () => {
                                     </div>
                                 </a>
                             </div>
-                        </div>
+                        </div> */}
                         <div class="grid-item">
                             <div class="gallery-image">
-                                <a href="https://github.com/kartik-nain/Breakout-Ball-Game.git" target="_blank">
-                                    <img src="./images/portfolio/breakout.png" alt="" class="" />
+                                <a href="https://staging.d22yfiam27o524.amplifyapp.com/login" target="_blank">
+                                    <img src={FiatMatch} alt="FiatMatch-Project" class="portfolio-img" />
                                     <div class="img-overlay">
                                         <div class="img-description">
-                                            <h3 class="">Breakout Ball Game</h3>
-                                            <h5 class="">Technologies used: Java Core, Java Swing, Java AWT, Data
-                                                Structures</h5>
+                                            <h3 class="">FiatMatch B2B</h3>
+                                            <h5 class="">Technologies used: Next, TypeScript, Tailwind, MetaMap
+                                                </h5>
                                         </div>
                                     </div>
                                 </a>
                             </div>
                         </div>
-                        <div class="grid-item">
-                            <div class="gallery-image">
-                                <a href="https://github.com/kartik-nain/Staff-Information-Management-System.git" target="_blank">
-                                    <img src="./images/portfolio/staff.png" alt="" class="" />
-                                    <div class="img-overlay">
-                                        <div class="img-description">
-                                            <h3 class="">Staff Information Management System</h3>
-                                            <h5 class="">Technologies used: Java Core, Java Swing, Java AWT, Oracle
-                                                RDBMS</h5>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="grid-item">
-                            <div class="gallery-image">
-                                <a href="https://github.com/kartik-nain/MovieLand.git" target="_blank">
-                                    <img src="./images/portfolio/movieland.png" alt="" class="" />
-                                    <div class="img-overlay">
-                                        <div class="img-description">
-                                            <h3 class="">MovieLand Website</h3>
-                                            <h5 class="">Technologies Used: React.js, JavaScript, HTML, CSS</h5>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="grid-item">
-                            <div class="gallery-image">
-                                <a href="https://github.com/kartik-nain/Adventure-Game.git" target="_blank">
-                                    <img src="./images/portfolio/adventure.png" alt="" class="" />
-                                    <div class="img-overlay">
-                                        <div class="img-description">
-                                            <h3 class="">Adventure Game</h3>
-                                            <h5 class="">Technologies used: Java, Data Structures</h5>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div> 
                         <div class="grid-item">
                             <div class="gallery-image">
                                 <a href="https://employer-engagement-event.vercel.app/#home" target="_blank">
-                                    <img src="./images/portfolio/emp.png" alt="" class="" />
+                                    <img src={EmployeeEngagement} alt="EmployeeEngagement" class="portfolio-img" />
                                     <div class="img-overlay">
                                         <div class="img-description">
                                             <h3 class="">Employer Engagement Event Website</h3>
@@ -424,12 +389,12 @@ const AboutMe = () => {
                         </div>
                         <div class="grid-item">
                             <div class="gallery-image">
-                                <a href="https://github.com/kartik-nain/GameTronix.git" target="_blank">
-                                    <img src="./images/portfolio/gametronix.png" alt="" class="" />
+                                <a href="https://github.com/2023-Summer-ITE-5425-0NA/roamingTrippers" target="_blank">
+                                    <img src={RoamingTrippers} alt="RoamingTrippers" class="portfolio-img" />
                                     <div class="img-overlay">
                                         <div class="img-description">
-                                            <h3 class="">GameTronix Website</h3>
-                                            <h5 class="">Technologies used: HTML, CSS, JavaScript</h5>
+                                            <h3 class="">RoamingTrippers</h3>
+                                            <h5 class="">Technologies used: React, Angular, Node, Express, MongoDB</h5>
                                         </div>
                                     </div>
                                 </a>
@@ -437,12 +402,52 @@ const AboutMe = () => {
                         </div>
                         <div class="grid-item">
                             <div class="gallery-image">
-                                <a href="https://github.com/kartik-nain/Starbucks-Menu-Application.git" target="_blank">
-                                    <img src="./images/portfolio/starbucks.png" alt="" class="" />
+                                <a href="https://github.com/rajnada/React_AI_shoppingCart" target="_blank">
+                                    <img src={''} alt="" class="portfolio-img" />
                                     <div class="img-overlay">
                                         <div class="img-description">
-                                            <h3 class="">Starbucks Menu Application</h3>
-                                            <h5 class="">Technologies used: C#, .Net, Data Structures, Design Patterns
+                                            <h3 class="">React AI Shopping Cart</h3>
+                                            <h5 class="">Technologies Used: React.js, JavaScript, Alan AI</h5>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="grid-item">
+                            <div class="gallery-image">
+                                <a href="https://github.com/rajnada/social-media-app/tree/master" target="_blank">
+                                    <img src='' alt="" class="portfolio-img" />
+                                    <div class="img-overlay">
+                                        <div class="img-description">
+                                            <h3 class="">Social Media App</h3>
+                                            <h5 class="">Technologies used: React,Firebase, Ant Design, Bootstrap </h5>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div> 
+                       
+                        <div class="grid-item">
+                            <div class="gallery-image">
+                                <a href="https://github.com/rajnada/React-Wanderings-frontend" target="_blank">
+                                    <img src="./images/portfolio/gametronix.png" alt="" class="portfolio-img" />
+                                    <div class="img-overlay">
+                                        <div class="img-description">
+                                            <h3 class="">React Wabderings - Social Media </h3>
+                                            <h5 class="">Technologies used: React, Stripe, Slick, Redux, Antd</h5>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="grid-item">
+                            <div class="gallery-image">
+                                <a href="https://github.com/rajnada/React-contact-List-app" target="_blank">
+                                    <img src="./images/portfolio/starbucks.png" alt="" class="portfolio-img" />
+                                    <div class="img-overlay">
+                                        <div class="img-description">
+                                            <h3 class="">Contact List App</h3>
+                                            <h5 class="">Technologies used: React, Boostrap, Redux
                                             </h5>
                                         </div>
                                     </div>
@@ -451,44 +456,18 @@ const AboutMe = () => {
                         </div>
                         <div class="grid-item">
                             <div class="gallery-image">
-                                <a href="https://github.com/kartik-nain/Heart-Attack-Prediction-ML-Model.git" target="_blank">
-                                    <img src="./images/portfolio/heart.jpg" alt="" class="" />
+                                <a href="https://github.com/rajnada/E-comerce" target="_blank">
+                                    <img src="./images/portfolio/heart.jpg" alt="" class="portfolio-img" />
                                     <div class="img-overlay">
                                         <div class="img-description">
-                                            <h3 class="">Heart Attack Prediction ML Model</h3>
-                                            <h5 class="">Technologies used: Python, Scikit-learn, Matplotlib, Seaborn,
-                                                Pandas, NumPy</h5>
+                                            <h3 class="">E-Commerce App</h3>
+                                            <h5 class="">Technologies used: React, Node, Express, Stripe</h5>
                                         </div>
                                     </div>
                                 </a>
                             </div>
                         </div>
-                        <div class="grid-item">
-                            <div class="gallery-image">
-                                <a href="https://github.com/kartik-nain/Toronto-MCI-Analysis.git" target="_blank">
-                                    <img src="./images/portfolio/mci.png" alt="" class="" />
-                                    <div class="img-overlay">
-                                        <div class="img-description">
-                                            <h3 class="">Toronto MCI Analysis</h3>
-                                            <h5 class="">Technologies used: HDFS, Hive, Hbase, Spark, Pig</h5>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="grid-item">
-                            <div class="gallery-image">
-                                <a href="https://github.com/kartik-nain/Customer-Subscription-ML-Models.git" target="_blank">
-                                    <img src="./images/portfolio/bank_model.png" alt="" class="" />
-                                    <div class="img-overlay">
-                                        <div class="img-description">
-                                            <h3 class="">Customer Subscription ML Models</h3>
-                                            <h5 class="">Technologies used: Python, Matplotlib, Seaborn, Pandas, NumPy, Weka</h5>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
+                       
                         
 
                     </div>
